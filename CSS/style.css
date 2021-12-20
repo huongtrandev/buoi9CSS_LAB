@@ -1,0 +1,41 @@
+body {
+    background: lightblue;
+}
+
+ul.a {
+    background: pink;
+    list-style-type: circle;
+    list-style-position: inside;
+    padding: 20px;
+}
+ul.b {
+    background: pink;
+    list-style-type: square;
+    list-style-position: outside;
+    padding: 20px;
+}
+ol.c {
+    list-style-type: lower-alpha;
+    list-style-position: outside;
+}
+ol.d {
+    list-style-type: upper-latin;
+    list-style-position: inside;
+}
+ol.image {
+    list-style-image: url(https://cdn0.iconfinder.com/data/icons/leading-international-corporate-website-app-collec/16/Bulletpoint-128.png);
+    width: 1%;
+}
+th, td {
+    border: 2px solid black;
+    height: 50px;
+    vertical-align: top;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;  
+}
+th {
+    height: 50px;
+}
